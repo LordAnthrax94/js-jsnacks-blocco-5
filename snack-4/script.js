@@ -7,3 +7,15 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+
+
+const newArray = [];
+
+posts.forEach((nomi) => {
+  
+  newArray.push(nomi.author)   
+  
+})
+
+console.log(newArray);
