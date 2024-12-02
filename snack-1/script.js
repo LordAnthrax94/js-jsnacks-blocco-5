@@ -9,6 +9,7 @@ names.forEach((element) => {
   
   newArray.push(element)   
   
+  
 })
 
 console.log(newArray);

@@ -12,3 +12,15 @@ const people = [
 people.forEach((nomi) =>{
   
 })
+
+
+
+const newArray = [];
+
+people.forEach((nomi) => {
+  
+  newArray.push(nomi.name)   
+  
+})
+
+console.log(newArray);
